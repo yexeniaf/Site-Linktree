@@ -45,4 +45,6 @@ img {
   border-color: black;
   color: black;
   text-decoration: underline;
+  transition: 0.5s;
 }
+
