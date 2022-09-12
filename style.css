@@ -7,19 +7,17 @@ img {
 }
 
 .linktree-body {
-  position: absolute;
-  top: 20%;
-  left: 35%;
+  top: 11%;
+  left: 15px;
 }
 
 .link-name {
-  text-align:center;
-  font-size: 3rem;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .link-bio {
-  text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .link-containers {
@@ -33,11 +31,15 @@ img {
   width: 90%;
   height: 40px;
   text-align: center;
-  padding-top: 7%;
+  padding: 2%;
   margin: 2%;
   background-color: black;
   color: white;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .site-links:hover {
